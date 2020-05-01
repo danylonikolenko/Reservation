@@ -234,7 +234,6 @@
         <div class="modal-content">
                 <img width="25px" height="25px" class="close-window" src="img/close.png">
                 <label class="modal-place"></label>
-                <label>Status:&nbsp;</label>
                 <label>Email:</label><input class="form-control" name="email" type="email"><br>
                 <label>Data Od:</label><input style="margin-bottom: 10px" class="form-control" name="dateOd" type="datetime-local">
                 <label>Data Do:</label><input style="margin-bottom: 10px" class="form-control" name="dateDo" type="datetime-local">
