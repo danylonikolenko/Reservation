@@ -147,7 +147,7 @@ $('.makeRes').click(function () {
 
     var Date1 = makeTrueTime(dateOd);
     var Date2 = makeTrueTime(dateDo);
-    alert(Date1);
+    //alert(Date1);
     $.ajax({ //Rezerwujemy czas dla wybranego miejsca
 
             url:"/makeOrder.php",
@@ -180,7 +180,7 @@ $(".inp-wyp").change(function () {    // Zmienia miejsce wybranego sprzętu
     var miejsce =  $(this).val();
     var oznaczenie = $(this).closest("tr").find($(".inp-oznacz"));
 
-        if(miejsce<=16){
+        if(miejsce<=16 && miejsce>=1){
             $.ajax({
                 url:"/component.php",
                 method:"POST",
